@@ -11,4 +11,5 @@ import (
 
 func main() {
 	fmt.Println("random number: ", rand.Intn(100))
+	// `fmt.Println()`や`rand.Intn()`のように、外部に公開されたmethodは頭文字を大文字にする。||大文字になっている。
 }
